@@ -157,11 +157,10 @@ text-decoration: aliceblue;
 }
 button:focus {
   border: none;
-  background-color: rgb(255, 9, 9);
 }
 
 button:hover {
-background-color: rgb(243, 7, 7);
+background-color: rgb(189, 31, 31);
 
 }
 
@@ -191,12 +190,17 @@ text-decoration: aliceblue;
      
       <div class="contenedor">
         <div class="topnav" id="myTopnav">
+
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
+
+
+     
       <p align="right">
         <input class="button" onclick="toggleFullscreen()" type="button" value="Fullscreen TV" /> </p>
+<br>
     <div class="video-container">Loading the player...
      
      
@@ -206,12 +210,6 @@ text-decoration: aliceblue;
  
      <div id="changeVideo">  
         <ul>
-          <li> <button onclick="mostrarMensaje26()">GULLI</button></li>
-          <li><button onclick="mostrarMensaje21()">TOON_GOO</button></li>
-          <li><button onclick="mostrarMensaje22()">CN-ARABE</button></li>
-          <li><button onclick="mostrarMensaje23()">MBC3</button></li>
-          <li><button onclick="mostrarMensaje24()">SP-TOON</button></li>
-              <li> <button onclick="mostrarMensaje25()">TOYORELJANA</button></li>
           <li> <button onclick="mostrarMensaje1()">قطر1</button></li>
           <li><button onclick="mostrarMensaje2()">قطر2</button></li>
           <li><button onclick="mostrarMensaje3()">قطر-اليوم</button></li>
@@ -231,8 +229,12 @@ text-decoration: aliceblue;
               <li> <button onclick="mostrarMensaje17()">Dubai-Sport1</button></li>
               <li><button onclick="mostrarMensaje18()">Dubai-Sport2</button></li>
               <li><button onclick="mostrarMensaje19()">Dubai-Sport3</button></li>
-              <li><button onclick="mostrarMensaje20()">ELHADDEF</button></li>
-            
+              <li><button onclick="mostrarMensaje20()">Echorouk NEWS</button></li>
+              <li><button onclick="mostrarMensaje21()">Echorouk NEWS</button></li>
+              <li><button onclick="mostrarMensaje22()">EL DJAZAIRIA</button></li>
+              <li><button onclick="mostrarMensaje23()">ELHADDEF</button></li>
+              <li><button onclick="mostrarMensaje24()">ALMAGHARABIA</button></li>
+                  <li> <button onclick="mostrarMensaje25()">ELBELAD</button></li>
               
     
       </ul>
@@ -337,34 +339,34 @@ text-decoration: aliceblue;
         
         
             function mostrarMensaje20() { 
-      document.getElementById("iframe").src = "elhadef_dz.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/algeria_live.php?id=echorouk_news"
       }
               function mostrarMensaje21() { 
-      document.getElementById("iframe").src = "toon_go.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/mobiletv/glarb.php?id=echorouk_news"
       }
         
         
                 function mostrarMensaje22() { 
-      document.getElementById("iframe").src = "cartoon.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/algeria_live.php?id=el_djazairia"
       }
         
         
                   function mostrarMensaje23() { 
-      document.getElementById("iframe").src = "sp-toon.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/algeria_live.php?id=elheddaf"
       }
         
         
                     function mostrarMensaje24() { 
-      document.getElementById("iframe").src = "sp-toon.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/mobiletv/glarb.php?id=almagharibia"
       }
         
         
                       function mostrarMensaje25() { 
-      document.getElementById("iframe").src = "tyoureljana.html"
+      document.getElementById("iframe").src = "https://www.elahmad.com/tv/algeria_live.php?id=elbilad"
       }
         
                         function mostrarMensaje26() { 
-      document.getElementById("iframe").src = "guli.html"
+      document.getElementById("iframe").src = "https://barhomusdza.github.io/uji/m3u8player.html?url=aHR0cHM6Ly92ZXJzYXRpbGUtd2lsZHNpZGV0di0xLWZyLnNhbXN1bmcud3VybC50di9wbGF5bGlzdC5tM3U4"
       }
         
         
