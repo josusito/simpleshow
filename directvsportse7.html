@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>TV PUBLICA</title>
+<title>ESPN 2 HD</title>
 
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="Pragma" content="no-cache" />
@@ -79,33 +79,7 @@ body {
 .topnav .icon {
   display: none;
 }
-
-.codembed {
-            float: left;
-            width: 100%;
-            height: auto;
-        }
-        .commenter {
-            float: left;
-        }
-        .commenter img {
-            width: 35px;
-            height: 35px;
-        }
-        .comment-text-area {
-            float: left;
-            width: 100%;
-            height: auto;
-        }
-
-        .textinput {
-            float: left;
-            width: 100%;
-            min-height: 30px;
-            outline: none;
-            resize: none;
-            border: 1px solid grey;
-        } .button {
+ .button {
   background-color: #50ff39; /* Green */
   border: 3px solid Black;
  
@@ -116,10 +90,32 @@ body {
     font-weight: bold;
     width: 115px;
   }
+
 </style>
 
 </head>
+<script>
 
+  window.onload = function(){
+      // your code here
+   
+
+// Define the string
+var string = 'https://www.vtvcable.com/web/dash.php?url=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzAvbWFuaWZlc3QubXBk&k1=ZWVkNjRlMGIxM2JjNWE2NWI3ODk5OTdlYzIyYTIzZDA=&k2=MTBkMWU4N2Y2ZTc1YzM2MzNmZmM3YjdkMmVjY2Q1ZmE=&lang=0';
+
+// Encode the String
+var encodedString = btoa(string);
+console.log(encodedString); // Outputs: "SGVsbG8gV29ybGQh"
+var source = "https://todos-cc7.pages.dev/repro.html?r="+encodedString;
+
+  var newFrameName = "hello";
+  const iframe = document.getElementById("iframe");
+  $('iframe').attr('src',source ).reload;
+
+
+};
+
+</script>
 <body>
  
   <div class="contenedor">
@@ -131,17 +127,19 @@ body {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<center><h2>Cartoon Network en VIVO</h2></center>
-
-<br>
+<center><h2></h2></center>
     <input class="button" onclick="toggleFullscreen()" type="button" value="Fullscreen TV" />
 <br>
 <br>
     <div class="video-container">Loading the player...
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay *; encrypted-media *;" name="iframe" src="https://kqa4ksy6oeygvk8viu7udq.on.drv.tw/player/jwcdn1.html?url=bGl2ZS9jM2Vkcy9DYXJ0b29uTmV0d29yay9TQV9MaXZlX2Rhc2hfZW5jXzJBL0NhcnRvb25OZXR3b3JrLm1wZA==&kid=ZDdkZjU2ZWZhYTM2YTcxMTQxZDIzODg1NGNjNDZkMWQ=&k=OGFiYjJlZTkxNTBkOGIyYWY4ZWJlYzBkZTBmODMzYzg=&lang=1" __idm_id__="14934017"></iframe>
-    </div>
+
+  
+
+     <iframe allow="encrypted-media" src="" width="100%" height="100%" name="iframe" id="iframe" frameborder="0" scrolling="no" style="position:absolute;" allowfullscreen=""></iframe>
+           
+ </div>
 <br>
-<br/>
+
 
 </div>
 <script>
@@ -155,7 +153,6 @@ function myFunction() {
 }
 </script>
 <footer>
-
 
 
 </footer>
