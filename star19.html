@@ -3,11 +3,10 @@
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>+ SPORTS</title>
-    
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="expires" content="-1" />
+      <meta http-equiv="expires" content="-1" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -109,16 +108,16 @@
                 border: 1px solid grey;
             }
             .button {
-      background-color: #50ff39; /* Green */
-      border: 3px solid Black;
-     
-      text-align: center;
-      text-decoration: none;
-      font-size: 14px;
-      cursor: pointer;
-        font-weight: bold;
-        width: 115px;
-      }
+  background-color: #50ff39; /* Green */
+  border: 3px solid Black;
+ 
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+    font-weight: bold;
+    width: 115px;
+  }
     </style>
     
     </head>
@@ -127,23 +126,25 @@
      
       <div class="contenedor">
         <div class="topnav" id="myTopnav">
-       <!-- menu -->
+            <a href="index.html" class="active">Inicio</a>
+            <a href="canales.html"> Deportes </a>
+             <a href="note.html"> Canales </a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    <center><h2> </h2></center>
+    <br>
+
     
         <input class="button" onclick="toggleFullscreen()" type="button" value="Fullscreen TV" />
 <br>
 <br>
-    <div class="video-container">Loading the player...
-           <iframe src="ligasmart2_embed.html" width="100%" height="100%" frameborder="0" allow="encrypted-media" allow="encrypted-media" scrolling="no" allowfullscreen> </iframe>
- 
+    <div class="video-container"> Loading the player...
+        
+     <iframe   class="embed-responsive-item" frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen="true" id="my_iframe"   scrolling="no" src="playerm3u8.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/04/01/Texas_Motor_Speedway_Prct_20230401_1680365722036/ctr-all-complete.m3u8&img=https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/06575AB7DCC3EBE5C0FADB34CEBFE71391FD9D76AD0656D4D1BBCBE7D5E6C156/scale?width=1920&aspectRatio=1.78&format=jpeg&key=a5b87cb6123a46bd8a7d27809734de8f&key2=bbe8f22dff1c5274b084a7066d7ec487" width="100%" height="100%" frameborder="0" ></iframe>
      </div>
     <br>
-   
-    <center>-</center>
+
     </div>
     <script>
     function myFunction() {

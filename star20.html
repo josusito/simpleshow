@@ -3,11 +3,10 @@
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>+ SPORTS</title>
-    
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="expires" content="-1" />
+      <meta http-equiv="expires" content="-1" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -109,16 +108,16 @@
                 border: 1px solid grey;
             }
             .button {
-      background-color: #50ff39; /* Green */
-      border: 3px solid Black;
-     
-      text-align: center;
-      text-decoration: none;
-      font-size: 14px;
-      cursor: pointer;
-        font-weight: bold;
-        width: 115px;
-      }
+  background-color: #50ff39; /* Green */
+  border: 3px solid Black;
+ 
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+    font-weight: bold;
+    width: 115px;
+  }
     </style>
     
     </head>
@@ -127,23 +126,25 @@
      
       <div class="contenedor">
         <div class="topnav" id="myTopnav">
-       <!-- menu -->
+            <a href="index.html" class="active">Inicio</a>
+            <a href="canales.html"> Deportes </a>
+             <a href="note.html"> Canales </a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    <center><h2> </h2></center>
+    <br>
+
     
         <input class="button" onclick="toggleFullscreen()" type="button" value="Fullscreen TV" />
 <br>
 <br>
-    <div class="video-container">Loading the player...
-           <iframe src="ligasmart2_embed.html" width="100%" height="100%" frameborder="0" allow="encrypted-media" allow="encrypted-media" scrolling="no" allowfullscreen> </iframe>
- 
+    <div class="video-container"> Loading the player...
+        
+     <iframe   class="embed-responsive-item" frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen="true" id="my_iframe"   scrolling="no" src="playerm3u8.html?get=https://live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2023/04/01/N_E_C_vs_PSV_20230401_1680366020065/ctr-all-complete.m3u8&img=https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/DBFA815C865269A54CBDB5BC4CB9637E79EEF86D3844B30D4F7E2BDC07910876/scale?width=1920&aspectRatio=1.78&format=jpeg&key=0a394f7b2d7b4d1092cd8cd65d64bf89&key2=af2f4a12254148d545462d3785e23766" width="100%" height="100%" frameborder="0" ></iframe>
      </div>
     <br>
-   
-    <center>-</center>
+
     </div>
     <script>
     function myFunction() {
